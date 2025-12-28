@@ -38,4 +38,50 @@ The experience is guided by **A.C.E.**, the protocol’s AI “mind,” and fuel
 
 ## MVP (Testnet) — Current Focus
 
-**Goal:** ship a pl
+**Goal:** ship a playable Testnet MVP that proves the core loop.
+
+- Wallet connect (Kasware)
+- Category select + quiz run (10–20 questions)
+- Scoring + basic anti-cheat checks
+- Rewards flow (testnet) + simple user profile
+- Admin tooling to manage questions
+
+---
+
+## Core Features (Vision)
+
+- **🧠 Quiz-to-Earn (Geek Gauntlet):** high-stakes trivia with time pressure and scaling difficulty
+- **🏆 Deep Gamification:** XP, levels, streaks, achievements, and collectible sets
+- **🤖 Avatars & Characters:** “Giga” + collectible Geek character ecosystem (NFT-ready)
+- **🛒 Marketplace:** player-to-player trading of cosmetics/collectibles
+- **🤝 Community Content Engine:** submit/review questions and earn from contributions
+
+---
+
+## Tech Stack (Target)
+
+> We keep the stack lean early, then modularize as the product grows.
+
+**Frontend**
+- Next.js / React + TypeScript
+- Tailwind CSS
+
+**Backend**
+- Node.js (API routes / services)
+- Supabase (auth + database) *or* MongoDB (if needed)
+
+**Web3**
+- Kaspa + KRC-20
+- Kasware integration (connect + sign + transactions)
+
+**Storage**
+- IPFS (Pinata) for assets (later)
+
+---
+
+## Repo Structure (recommended)
+
+```txt
+apps/web        # Next.js frontend
+packages/*      # shared UI/types (optional as it grows)
+docs/           # developer docs (not pitch deck PDFs)
