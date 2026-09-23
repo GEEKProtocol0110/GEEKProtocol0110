@@ -1,191 +1,99 @@
 <p align="center">
-  <img src="https://storage.googleapis.com/maker-me/uploads/2024/07/08/17_51_33.914283_3b87640a-5c2f-48e0-a7d5-ec54199c0da9.png" alt="Geek Protocol Logo" width="220"/>
-</p>
-
-<h1 align="center">Geek Protocol</h1>
-
-<p align="center">
-  <b>Your Knowledge is Now an Asset.</b><br/>
-  <i>All hope, no hype.</i>
+  <img src="./assets/github-profile-banner.svg" alt="GEEK Protocol — Kaspa ecosystem" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://github.com/GEEKProtocol0110/Geek-protocol/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
-  <a href="https://geek-nu.vercel.app"><img src="https://img.shields.io/badge/website-live-brightgreen.svg" alt="Website"></a>
-  <a href="https://kas.fyi/token/krc20/GEEK"><img src="https://img.shields.io/badge/token-KRC--20-orange.svg" alt="Token"></a>
-  <a href="https://github.com/GEEKProtocol0110/Geek-protocol/issues"><img src="https://img.shields.io/github/issues/GEEKProtocol0110/Geek-protocol.svg" alt="Issues"></a>
-  <a href="https://github.com/GEEKProtocol0110/Geek-protocol/stargazers"><img src="https://img.shields.io/github/stars/GEEKProtocol0110/Geek-protocol.svg" alt="Stars"></a>
+  <strong>Your Knowledge is Now an Asset.</strong><br>
+  A Kaspa-first Proof-of-Learning ecosystem where people build skills, compete, contribute knowledge, and grow a persistent digital identity.
 </p>
 
 <p align="center">
-  <a href="https://geek-nu.vercel.app">Website</a> •
-  <a href="https://kas.fyi/token/krc20/GEEK">Token</a> •
-  <a href="https://kaspa.com/tokens/marketplace/token/GEEK">Marketplace</a> •
-  <a href="https://x.com/geekonkas">X</a> •
-  <a href="https://t.me/GEEKonKAScommunity">Telegram</a> •
-  <a href="#contributing">Contributing</a>
+  <a href="https://www.geekprotocol.xyz/">Website</a> ·
+  <a href="https://www.geekprotocol.xyz/play">Play Alpha</a> ·
+  <a href="https://www.geekprotocol.xyz/collection">GEEK Collection</a> ·
+  <a href="https://x.com/geekonkas">X / @geekonkas</a> ·
+  <a href="https://t.me/GEEKonKAScommunity">Telegram</a>
 </p>
 
----
+<p align="center">
+  <img alt="Built on Kaspa" src="https://img.shields.io/badge/built%20on-Kaspa-70C7BA?style=flat-square&labelColor=081012">
+  <img alt="Public Alpha" src="https://img.shields.io/badge/status-public%20alpha-F4C95D?style=flat-square&labelColor=081012">
+  <img alt="Open source" src="https://img.shields.io/badge/code-open%20source-EAF7F5?style=flat-square&labelColor=081012">
+</p>
 
-## What is Geek Protocol?
+## The mission
 
-Geek Protocol is a gamified Web3 ecosystem being built on **Kaspa**, powered by the **$GEEK (KRC-20)** token.  
-We’re building the hub where geek culture becomes an economy: **learn → compete → earn → collect**.
+**GEEK // PROTOCOL** is building a high-powered learning ecosystem on Kaspa.
 
-The experience is guided by **A.C.E.**, the protocol’s AI “mind,” and fueled by a player-owned progression system.
+Players prove what they know through timed challenges, develop a profile that records their journey, collect character-driven digital assets, and help expand the knowledge base through the Community Content Engine.
 
----
+> **Kaspa meets curiosity. Learning becomes value. Skill beats speculation.**
 
-## What’s Live Now
+## Start here
 
-- ✅ **$GEEK is live on Kaspa (KRC-20)**
-- ✅ Community channels + public docs
-- 🧪 MVP app build in progress
+| Repository | Purpose | Lifecycle |
+| --- | --- | --- |
+| [geek-protocol-hq](https://github.com/GEEKProtocol0110/geek-protocol-hq) | Canonical public Alpha: game experience, player profiles, collection, and Community Content Engine | **Canonical** |
+| [geek-protocol-docs](https://github.com/GEEKProtocol0110/geek-protocol-docs) | Protocol documentation, product reference, and litepaper materials | **Reference** |
+| [geek-protocol-alpha](https://github.com/GEEKProtocol0110/geek-protocol-alpha) | Engineering monorepo and earlier Alpha implementation | **Reference** |
 
----
+New here? Visit **[geekprotocol.xyz](https://www.geekprotocol.xyz/)** or begin with **[geek-protocol-hq](https://github.com/GEEKProtocol0110/geek-protocol-hq)**.
 
-## MVP (Testnet) — Current Focus
+## What we are building
 
-**Goal:** ship a playable Testnet MVP that proves the core loop.
+- **Proof of Learning** — timed, category-based challenges designed to reward demonstrated knowledge.
+- **Player identity** — profiles that preserve level, prestige, achievements, avatars, and each player's learning journey.
+- **Community Content Engine** — a reviewable pipeline for submitting, validating, and rewarding high-quality questions.
+- **GEEK collection** — 600 character-driven avatars, stickers, trading, and lore led by GIGA and A.C.E.
+- **Kaspa-native value** — transparent, low-friction activity built around user-controlled Kaspa wallets.
+- **Social play** — public and private lobbies, head-to-head challenges, tournaments, and community events.
 
-- Wallet connect (Kasware)
-- Category select + quiz run (10–20 questions)
-- Scoring + basic anti-cheat checks
-- Rewards flow (testnet) + simple user profile
-- Admin tooling to manage questions
+## Ecosystem map
 
----
+| Project | Focus | Lifecycle |
+| --- | --- | --- |
+| [geek-mini](https://github.com/GEEKProtocol0110/geek-mini) | Compact game-mode experiments | Prototype |
+| [geek-wallet](https://github.com/GEEKProtocol0110/geek-wallet) | Non-custodial Kaspa wallet UX exploration | Prototype |
+| [geek-jr-indexcards](https://github.com/GEEKProtocol0110/geek-jr-indexcards) | Early-learning and index-card experience | Prototype |
+| [level-up-life](https://github.com/GEEKProtocol0110/level-up-life) | Family learning and progression concepts | Prototype |
+| [kaspa-live-widget](https://github.com/GEEKProtocol0110/kaspa-live-widget) | Kaspa live-data widget | Prototype |
+| [kaspa-speed-benchmark-dashboard](https://github.com/GEEKProtocol0110/kaspa-speed-benchmark-dashboard) | Kaspa performance visualization | Prototype |
+| [a.c.e.-AGI](https://github.com/GEEKProtocol0110/a.c.e.-AGI) | A.C.E. research direction | Incubating |
+| [geek-protocol-site](https://github.com/GEEKProtocol0110/geek-protocol-site) | Previous website implementation | Superseded |
+| [geek--jr](https://github.com/GEEKProtocol0110/geek--jr) | Earlier GEEK Jr concept | Superseded |
 
-## Core Features (Vision)
+**Lifecycle key:** Canonical = active source of truth · Reference = supporting implementation or documentation · Prototype = exploratory build · Incubating = direction under development · Superseded = retained for history.
 
-- **🧠 Quiz-to-Earn (Geek Gauntlet):** high-stakes trivia with time pressure and scaling difficulty
-- **🏆 Deep Gamification:** XP, levels, streaks, achievements, and collectible sets
-- **🤖 Avatars & Characters:** “Giga” + collectible Geek character ecosystem (NFT-ready)
-- **🛒 Marketplace:** player-to-player trading of cosmetics/collectibles
-- **🤝 Community Content Engine:** submit/review questions and earn from contributions
+## The world behind the protocol
 
----
+- **GIGA** — the golden heart of the community.
+- **A.C.E.** — the Automated Cerebral Emulator and challenge host.
+- **The Omniscient Grid** — the knowledge network connecting competition, creation, and discovery.
+- **The Cognoscenti** — players who prove their knowledge and help the ecosystem grow.
 
-## Tech Stack (Target)
+## Trust, security, and audit readiness
 
-> We keep the stack lean early, then modularize as the product grows.
+GEEK Protocol is in public Alpha and is **not yet independently audited**. Public interfaces may demonstrate wallet, reward, collection, and minting flows, but production settlement, treasury payouts, and irreversible mint execution must remain gated until their deployment identifiers, terms, wallet controls, monitoring, and external security review are publicly verifiable.
 
-**Frontend**
-- Next.js / React + TypeScript
-- Tailwind CSS
+- [Security policy](https://github.com/GEEKProtocol0110/geek-protocol-hq/blob/main/SECURITY.md)
+- [Audit-readiness scope](https://github.com/GEEKProtocol0110/geek-protocol-hq/blob/main/docs/security/AUDIT_READINESS.md)
+- [Current project status](https://github.com/GEEKProtocol0110/geek-protocol-hq/blob/main/docs/PROJECT_STATUS.md)
 
-**Backend**
-- Node.js (API routes / services)
-- Supabase (auth + database) *or* MongoDB (if needed)
+Never send funds, reveal a seed phrase, or sign an unexpected transaction because of a message claiming to represent GEEK Protocol.
 
-**Web3**
-- Kaspa + KRC-20
-- Kasware integration (connect + sign + transactions)
+## Build with us
 
-**Storage**
-- IPFS (Pinata) for assets (later)
+We welcome careful contributors across game design, education, Kaspa engineering, accessibility, security, art, and world-building.
 
----
-
-## Repo Structure (recommended)
-
-```txt
-apps/web        # Next.js frontend
-packages/*      # shared UI/types (optional as it grows)
-docs/           # developer docs (not pitch deck PDFs)
-```
-
----
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18+ and npm/yarn
-- Kasware wallet extension
-- Basic understanding of Web3/crypto
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/GEEKProtocol0110/Geek-protocol.git
-cd Geek-protocol
-
-# Install dependencies (once app structure is in place)
-npm install
-
-# Run development server
-npm run dev
-```
-
----
-
-## Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details on how to:
-- Report bugs
-- Suggest features
-- Submit pull requests
-- Review code
-
----
-
-## Community & Support
-
-- 💬 **Telegram:** [Join our community](https://t.me/GEEKonKAScommunity)
-- 🐦 **X (Twitter):** [@geekonkas](https://x.com/geekonkas)
-- 📧 **Email:** [Contact us](mailto:contact@geek-protocol.com)
-- 🐛 **Issues:** [GitHub Issues](https://github.com/GEEKProtocol0110/Geek-protocol/issues)
-
----
-
-## Roadmap
-
-### Q1 2026 ✅
-- [x] $GEEK token launch on Kaspa
-- [x] Community establishment
-- [ ] MVP Testnet launch
-
-### Q2 2026 🚀
-- [ ] Mainnet beta launch
-- [ ] NFT character system
-- [ ] Marketplace v1
-
-### Q3-Q4 2026 🎯
-- [ ] Mobile app
-- [ ] Community content engine
-- [ ] Advanced gamification features
-
-*See our [detailed roadmap](docs/ROADMAP.md) for more information.*
-
----
-
-## Security
-
-Found a security vulnerability? Please read our [Security Policy](SECURITY.md) and report responsibly.
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgments
-
-- Built on [Kaspa](https://kaspa.org) blockchain
-- Powered by the $GEEK community
-- Inspired by geek culture worldwide 🤓
+1. Read the [HQ contributing guide](https://github.com/GEEKProtocol0110/geek-protocol-hq/blob/main/CONTRIBUTING.md).
+2. Review the [open HQ issues](https://github.com/GEEKProtocol0110/geek-protocol-hq/issues).
+3. Open a focused pull request with tests or evidence where appropriate.
+4. Report vulnerabilities privately through the process in [SECURITY.md](https://github.com/GEEKProtocol0110/geek-protocol-hq/blob/main/SECURITY.md).
 
 ---
 
 <p align="center">
-  Made with ❤️ by the Geek Protocol Team
-</p>
-
-<p align="center">
-  <sub>© 2026 Geek Protocol. All rights reserved.</sub>
+  <strong>GEEK // PROTOCOL</strong><br>
+  Build knowledge. Prove skill. Level up.<br>
+  <em>All Hope. No Hype.</em>
 </p>
