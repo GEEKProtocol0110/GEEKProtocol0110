@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">GEEK Protocol — Kaspa Ecosystem</title><desc id="desc">A black, teal, and gold cyberpunk banner for GEEK Protocol.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05090B"/><stop offset=".55" stop-color="#0A1518"/><stop offset="1" stop-color="#06110F"/></linearGradient>
+<linearGradient id="teal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#70C7BA"/><stop offset=".5" stop-color="#A5FFF0"/><stop offset="1" stop-color="#41A89B"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#D69A24"/><stop offset=".5" stop-color="#F4C95D"/><stop offset="1" stop-color="#B97810"/></linearGradient>
+<pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse"><path d="M46 0H0V46" fill="none" stroke="#70C7BA" stroke-opacity=".08"/></pattern>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="360" fill="url(#bg)"/><rect width="1200" height="360" fill="url(#grid)"/>
+<path d="M0 292L190 118 310 226 512 42 694 210 864 72 1200 290" fill="none" stroke="#70C7BA" stroke-opacity=".13" stroke-width="2"/>
+<path d="M0 315L206 141 326 249 528 65 710 233 880 95 1200 313" fill="none" stroke="#F4C95D" stroke-opacity=".09" stroke-width="1"/>
+<g transform="translate(76 70)"><path d="M12 72L58 22h62L74 72l46 50H58z" fill="none" stroke="url(#teal)" stroke-width="10" stroke-linejoin="round" filter="url(#glow)"/><path d="M85 72l45-50h62l-45 50 45 50h-62z" fill="none" stroke="url(#gold)" stroke-width="10" stroke-linejoin="round"/><circle cx="102" cy="72" r="6" fill="#EAF7F5"/></g>
+<g font-family="Inter,Segoe UI,Arial,sans-serif"><text x="320" y="130" fill="#EAF7F5" font-size="64" font-weight="800" letter-spacing="4">GEEK PROTOCOL</text><rect x="322" y="154" width="620" height="4" rx="2" fill="url(#teal)"/><text x="320" y="210" fill="#70C7BA" font-size="25" font-weight="700" letter-spacing="8">KASPA ECOSYSTEM</text><text x="320" y="266" fill="#F4C95D" font-size="19" font-weight="700" letter-spacing="5">BUILD · LEARN · COMPETE · OWN</text></g>
+<g opacity=".82"><circle cx="1080" cy="62" r="4" fill="#70C7BA"/><circle cx="1110" cy="62" r="4" fill="#F4C95D"/><circle cx="1140" cy="62" r="4" fill="#EAF7F5"/><path d="M1028 300h112" stroke="#70C7BA" stroke-width="2"/><path d="M1084 276v48" stroke="#F4C95D" stroke-width="2"/></g>
+<rect x="18" y="18" width="1164" height="324" rx="12" fill="none" stroke="#70C7BA" stroke-opacity=".3"/>
+</svg>
