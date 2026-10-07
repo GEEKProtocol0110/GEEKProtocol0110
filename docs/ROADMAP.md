@@ -1,35 +1,11 @@
-# Roadmap
+# Project direction
 
-This roadmap outlines planned milestones for Geek Protocol. Dates and scope may shift based on community feedback and technical discovery.
+The active Geek Protocol roadmap is maintained in **Geek Protocol HQ**. This profile repository introduces the projects; it does not maintain a separate release schedule.
 
-## 2026 Q1
+- [Current release status](https://github.com/GEEKProtocol0110/geek-protocol-hq/blob/main/docs/PROJECT-STATUS.md)
+- [Full product roadmap](https://github.com/GEEKProtocol0110/geek-protocol-hq/blob/main/docs/PRODUCT-ROADMAP.md)
+- [Live litepaper](https://www.geekprotocol.xyz/litepaper/)
 
-- MVP testnet release
-- Wallet connect and quiz flow
-- Basic rewards and profile
-- Admin tooling for question management
+The current focus is guided learning, free play, useful progress and a clear experience for players and families. Geek Jr provides separate parent-guided early learning, and Geek Mini offers a small, shareable Kaspa challenge.
 
-## 2026 Q2
-
-- Mainnet beta launch
-- NFT character system (initial drop)
-- Marketplace v1 for collectibles
-- Anti-cheat improvements
-
-## 2026 Q3
-
-- Community content engine (submit and review questions)
-- Enhanced gamification (streaks, achievements, sets)
-- Analytics dashboard (basic)
-
-## 2026 Q4
-
-- Mobile app (beta)
-- Marketplace v2 (bundles and traits)
-- Seasonal events and tournaments
-
-## Longer Term
-
-- Creator monetization options
-- Cross-platform identity and profiles
-- Advanced moderation and trust tooling
+Larger Arena modes, player-economy systems, governance and the launchpad remain planned. Monetary settlement, reward withdrawals and collection minting are disabled. Follow the linked status and roadmap for release boundaries and implementation evidence rather than treating earlier quarterly targets as commitments.
