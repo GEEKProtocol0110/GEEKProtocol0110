@@ -1,21 +1,7 @@
-# Security Policy
+# Security reporting
 
-## Supported Versions
+This repository contains the Geek Protocol GitHub profile and project navigation. It does not run gameplay, wallet authentication, minting or settlement services.
 
-We currently support the following versions with security updates:
+For a vulnerability affecting **Geek Protocol HQ**, follow the [HQ security policy and private reporting instructions](https://github.com/GEEKProtocol0110/geek-protocol-hq/blob/main/SECURITY.md). For another project, use that repository's security policy and private reporting channel.
 
-- main (active development)
-
-## Reporting a Vulnerability
-
-If you discover a security vulnerability, please report it responsibly.
-
-- Email: contact@geek-protocol.com
-- Subject line: "Security Vulnerability Report"
-- Include: a detailed description, steps to reproduce, impact assessment, and any suggested fixes
-
-We will acknowledge receipt within 72 hours and provide a timeline for remediation after initial triage.
-
-## Coordinated Disclosure
-
-Please do not open public issues or pull requests for security vulnerabilities. We will work with you to coordinate a responsible disclosure timeline.
+Do not publish an unpatched vulnerability, credentials, personal data or wallet secrets in an issue or pull request. This profile does not promise a separate response deadline or security audit status; the relevant project's policy is authoritative.
