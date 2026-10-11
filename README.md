@@ -25,19 +25,19 @@ Geek Protocol began with a simple idea: make learning exciting for one child. We
 
 **[Geek Protocol HQ](https://www.geekprotocol.xyz/) · Learn, explore and play**
 
-Follow Kaspa lessons, explore Quiz Quest with GIGA, play solo or with a friend, and create your own Geek. Your player dashboard brings progress, achievements and game records together. **Public Alpha.**
+Follow Kaspa lessons, explore four Quiz Quest chapters with GIGA, play solo or with a friend, and create your own Geek. Your player dashboard brings progress, achievements and game records together. **Public Alpha.**
 
 [Start a lesson](https://www.geekprotocol.xyz/study/) · [Begin Quiz Quest](https://www.geekprotocol.xyz/quest/) · [Choose a game](https://www.geekprotocol.xyz/play/)
 
 **[Geek Jr](https://geekjr.xyz/) · Little steps. Big discoveries.**
 
-Picture words, parent-guided reading, matching, patterns and stories for ages 1–10. Explore together at your child’s pace. No account needed; settings and practice records stay in the browser.
+Picture words, parent-guided reading, matching, patterns and stories for ages 1–10. Explore together at your child’s pace. No account needed; separate learner profiles, settings and practice records stay in the browser, with parent-controlled backup files.
 
 [Explore with your child](https://geekjr.xyz/) · [For grown-ups](https://geekjr.xyz/parent/)
 
 **[Geek Mini](https://geek-mini.vercel.app/) · A little Kaspa challenge to share**
 
-Try five daily questions or a 30-second Speed Round. Share a challenge or add the branded game card to your website. Free practice; no account, wallet or token rewards.
+Try five daily questions or a 30-second Speed Round. Share a challenge or add the branded game card to your website. 76 source-linked practice questions and missed-topic links to HQ; no account, wallet or token rewards.
 
 [Play Mini](https://geek-mini.vercel.app/) · [Add it to your site](https://github.com/GEEKProtocol0110/geek-mini#for-supporters)
 
@@ -56,6 +56,8 @@ Start with the repository that matches your interests. **HQ is the active produc
 | [geek-protocol-hq](https://github.com/GEEKProtocol0110/geek-protocol-hq) | Guided learning, games, player characters, community questions and current developer documentation |
 | [geek-jr](https://github.com/GEEKProtocol0110/geek-jr) | The live family learning site, picture-word lessons and parent-guided reading |
 | [geek-mini](https://github.com/GEEKProtocol0110/geek-mini) | The small, shareable Kaspa game and website embed |
+| [kaspa-live-widget](https://github.com/GEEKProtocol0110/kaspa-live-widget) | Signed Android 8+ home-screen companion; physical-device and Play owner checks tracked separately |
+| [geek-wallet](https://github.com/GEEKProtocol0110/geek-wallet) | Public Alpha Mainnet public-address KAS/GEEK portfolio and receiving QR |
 | [geek-protocol-docs](https://github.com/GEEKProtocol0110/geek-protocol-docs) | Earlier planning, litepaper references and brand materials |
 
 Developers, educators, artists, writers and accessibility contributors are welcome. Read the [HQ contribution guide](https://github.com/GEEKProtocol0110/geek-protocol-hq/blob/main/CONTRIBUTING.md), explore [HQ issues](https://github.com/GEEKProtocol0110/geek-protocol-hq/issues), or help improve [Geek Jr](https://github.com/GEEKProtocol0110/geek-jr/issues) and [Geek Mini](https://github.com/GEEKProtocol0110/geek-mini/issues).
