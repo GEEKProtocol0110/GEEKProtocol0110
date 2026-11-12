@@ -1,30 +1,141 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="title desc">
-  <title id="title">GEEK Protocol — Learn. Play. Build.</title>
-  <desc id="desc">The teal and gold Geek Protocol mark beside the project name, with a constellation of connected points. A universe of curiosity, built for the Kaspa community.</desc>
+  <title id="title">GEEK Protocol — Proof of Learning on Kaspa. Learn. Play. Build.</title>
+  <desc id="desc">A dark teal and gold engineering banner: HUD corners, a Kaspa-style blockDAG constellation, and the Geek Protocol wordmark. All hope, no hype.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#09191b"/><stop offset="1" stop-color="#070e16"/></linearGradient>
-    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#77e2cf"/><stop offset="1" stop-color="#39aa9c"/></linearGradient>
-    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f7d67e"/><stop offset="1" stop-color="#d9a33c"/></linearGradient>
-    <radialGradient id="light"><stop stop-color="#46bdaa" stop-opacity=".16"/><stop offset="1" stop-color="#46bdaa" stop-opacity="0"/></radialGradient>
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#7ee1d0" stroke-opacity=".035"/></pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.92" y2="1">
+      <stop stop-color="#05090d"/>
+      <stop offset="0.55" stop-color="#071217"/>
+      <stop offset="1" stop-color="#0a1c1e"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#8af3e0"/>
+      <stop offset="1" stop-color="#49EACB"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f8e19a"/>
+      <stop offset="1" stop-color="#d9a33c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.46" r="0.48">
+      <stop stop-color="#49EACB" stop-opacity=".18"/>
+      <stop offset="0.45" stop-color="#49EACB" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#49EACB" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="goldglow" cx="0.18" cy="0.2" r="0.4">
+      <stop stop-color="#d9a33c" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#d9a33c" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#49EACB" stroke-opacity=".045" stroke-width="1"/>
+    </pattern>
+    <pattern id="scan" width="1280" height="3" patternUnits="userSpaceOnUse">
+      <rect width="1280" height="1" fill="#49EACB" fill-opacity=".028"/>
+    </pattern>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
   </defs>
-  <rect width="1280" height="400" rx="24" fill="url(#bg)"/>
-  <rect width="1280" height="400" rx="24" fill="url(#grid)"/>
-  <ellipse cx="1050" cy="190" rx="310" ry="270" fill="url(#light)"/>
-  <path d="M840 300 886 80 1010 42 1190 105 1220 285 1112 355 840 300 1050 220 886 80M1050 220 1190 105M1050 220 1112 355" fill="none" stroke="#73d8c5" stroke-opacity=".18" stroke-width="1.5"/>
-  <g fill="#73d8c5"><circle cx="840" cy="300" r="4"/><circle cx="886" cy="80" r="4"/><circle cx="1010" cy="42" r="4"/><circle cx="1190" cy="105" r="4"/><circle cx="1220" cy="285" r="4"/><circle cx="1112" cy="355" r="4"/></g>
-  <g transform="translate(916 132)">
-    <path d="M12 72 58 22h62L74 72l46 50H58Z" fill="none" stroke="url(#teal)" stroke-width="10" stroke-linejoin="round"/>
-    <path d="m85 72 45-50h62l-45 50 45 50h-62Z" fill="none" stroke="url(#gold)" stroke-width="10" stroke-linejoin="round"/>
-    <circle cx="102" cy="72" r="6" fill="#eff9f5"/>
+
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <rect width="1280" height="400" fill="url(#grid)"/>
+  <rect width="1280" height="400" fill="url(#scan)"/>
+  <rect width="1280" height="400" fill="url(#glow)"/>
+  <rect width="1280" height="400" fill="url(#goldglow)"/>
+
+  <!-- left rail -->
+  <rect x="0" y="0" width="6" height="400" fill="#49EACB" fill-opacity=".85"/>
+  <rect x="6" y="0" width="2" height="400" fill="#d9a33c" fill-opacity=".75"/>
+
+  <!-- HUD corners -->
+  <g fill="none" stroke="#49EACB" stroke-width="1.6" stroke-opacity=".85">
+    <path d="M36 28h48M36 28v48"/>
+    <path d="M1244 28h-48M1244 28v48"/>
+    <path d="M36 372h48M36 372v-48"/>
+    <path d="M1244 372h-48M1244 372v-48"/>
   </g>
+  <g fill="none" stroke="#d9a33c" stroke-width="1" stroke-opacity=".55">
+    <path d="M36 28h16"/>
+    <path d="M1244 28h-16"/>
+    <path d="M36 372h16"/>
+    <path d="M1244 372h-16"/>
+  </g>
+
+  <!-- Kaspa-style blockDAG constellation -->
+  <g transform="translate(0 8)" fill="none" stroke="#49EACB" stroke-linecap="round">
+    <g stroke-opacity=".22" stroke-width="1.25">
+      <path d="M820 268 900 210 980 168 1060 150 1148 168"/>
+      <path d="M848 310 930 248 1018 210 1100 198 1184 230"/>
+      <path d="M880 140 960 118 1040 108 1128 128 1200 168"/>
+      <path d="M900 210 960 118"/>
+      <path d="M980 168 1018 210"/>
+      <path d="M1060 150 1100 198"/>
+      <path d="M930 248 980 168"/>
+      <path d="M1018 210 1060 150"/>
+      <path d="M1100 198 1148 168"/>
+      <path d="M848 310 900 210"/>
+      <path d="M1148 168 1184 230"/>
+      <path d="M1128 128 1148 168"/>
+      <path d="M1040 108 1060 150"/>
+      <path d="M980 168 1040 108"/>
+    </g>
+    <g stroke="#d9a33c" stroke-opacity=".16" stroke-width="1">
+      <path d="M900 210 1040 108 1184 230"/>
+    </g>
+  </g>
+  <g fill="#49EACB">
+    <circle cx="820" cy="276" r="3.2" fill-opacity=".7"/>
+    <circle cx="848" cy="318" r="3"/>
+    <circle cx="880" cy="148" r="3.2"/>
+    <circle cx="900" cy="218" r="4.2"/>
+    <circle cx="930" cy="256" r="3.4"/>
+    <circle cx="960" cy="126" r="3.6"/>
+    <circle cx="980" cy="176" r="4.6"/>
+    <circle cx="1018" cy="218" r="3.8"/>
+    <circle cx="1040" cy="116" r="4"/>
+    <circle cx="1060" cy="158" r="5" fill="#8af3e0"/>
+    <circle cx="1100" cy="206" r="3.6"/>
+    <circle cx="1128" cy="136" r="3.4"/>
+    <circle cx="1148" cy="176" r="4.2"/>
+    <circle cx="1184" cy="238" r="3.2"/>
+    <circle cx="1200" cy="176" r="3"/>
+  </g>
+  <g fill="#d9a33c">
+    <circle cx="1060" cy="158" r="2"/>
+    <circle cx="980" cy="176" r="1.6"/>
+    <circle cx="900" cy="218" r="1.4"/>
+  </g>
+
+  <!-- wordmark lockup -->
   <g font-family="Arial, Helvetica, sans-serif">
-    <text x="64" y="75" fill="#8bdaca" font-size="22" font-weight="700" letter-spacing="4">A UNIVERSE OF CURIOSITY</text>
-    <text x="60" y="168" fill="#f2f8f6" font-size="76" font-weight="800" letter-spacing="-2">GEEK PROTOCOL</text>
-    <text x="64" y="218" fill="#c1d1cd" font-size="27">Your Knowledge is Now an Asset.</text>
-    <path d="M64 256h96" stroke="#79deca" stroke-width="3"/>
-    <text x="64" y="307" fill="#f5d179" font-size="26" font-weight="700" letter-spacing="5">LEARN. PLAY. BUILD.</text>
-    <text x="64" y="354" fill="#a3bbb6" font-size="21">Built for the Kaspa community. All hope, no hype.</text>
+    <text x="64" y="86" fill="#49EACB" font-size="13" font-weight="700" letter-spacing="5.5" font-family="ui-monospace, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace">PROOF OF LEARNING  //  KASPA</text>
+
+    <!-- chevron mark -->
+    <g transform="translate(60 108)" fill="none" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M4 56 40 16h50L54 56l36 40H40Z" stroke="url(#teal)" stroke-width="7.5"/>
+      <path d="m62 56 36-40h50L112 56l36 40H98Z" stroke="url(#gold)" stroke-width="7.5"/>
+      <circle cx="76" cy="56" r="4.5" fill="#eff9f5" stroke="none"/>
+    </g>
+
+    <text x="248" y="178" fill="#f4fbf8" font-size="72" font-weight="800" letter-spacing="-1.5">GEEK PROTOCOL</text>
+    <text x="252" y="222" fill="#c5d8d3" font-size="22" letter-spacing="0.4">Your knowledge is now an asset.</text>
+
+    <g>
+      <rect x="252" y="252" width="10" height="10" fill="#49EACB"/>
+      <text x="274" y="263" fill="#f5d179" font-size="18" font-weight="700" letter-spacing="4.5">LEARN  ·  PLAY  ·  BUILD</text>
+    </g>
+
+    <text x="252" y="308" fill="#8aa8a3" font-size="16">Built for the Kaspa community. All hope, no hype.</text>
   </g>
-  <rect x="1" y="1" width="1278" height="398" rx="23" fill="none" stroke="#4e867c" stroke-opacity=".45" stroke-width="2"/>
+
+  <!-- PUBLIC ALPHA chip -->
+  <g transform="translate(252 332)">
+    <rect x="0" y="0" width="132" height="26" rx="2" fill="none" stroke="#49EACB" stroke-opacity=".7" stroke-width="1.2"/>
+    <rect x="0" y="0" width="4" height="26" fill="#49EACB"/>
+    <text x="18" y="18" fill="#49EACB" font-size="12" font-weight="700" letter-spacing="2.4" font-family="ui-monospace, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace">PUBLIC ALPHA</text>
+  </g>
+
+  <g font-family="ui-monospace, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" fill="#49EACB" fill-opacity=".45" font-size="10" letter-spacing="1.6">
+    <text x="1088" y="368">BLOCKDAG  ·  OPEN SOURCE</text>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1279" height="399" fill="none" stroke="#3d6f68" stroke-opacity=".55" stroke-width="1"/>
 </svg>

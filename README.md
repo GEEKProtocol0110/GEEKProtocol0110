@@ -1,11 +1,16 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GEEKProtocol0110/GEEKProtocol0110/main/assets/github-profile-banner.svg" alt="GEEK Protocol — Learn. Play. Build. A universe of curiosity, built for the Kaspa community." width="100%">
+  <img src="https://raw.githubusercontent.com/GEEKProtocol0110/GEEKProtocol0110/main/assets/github-profile-banner.svg" alt="GEEK Protocol — Proof of Learning on Kaspa. Learn. Play. Build." width="100%">
 </p>
 
 <p align="center">
   <strong>Your Knowledge is Now an Asset.</strong><br>
   Learning, games and a universe of curiosity.<br>
   <em>All hope, no hype.</em>
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-49EACB?style=flat-square&labelColor=071217"></a>
+  <a href="https://github.com/GEEKProtocol0110/geek-protocol-hq/blob/main/docs/PROJECT-STATUS.md"><img alt="Public Alpha" src="https://img.shields.io/badge/release-Public_Alpha-f5d179?style=flat-square&labelColor=071217"></a>
 </p>
 
 <p align="center">
@@ -49,7 +54,7 @@ Free player characters and cosmetics are part of HQ’s Alpha. The separate **50
 
 ## Build with us
 
-Start with the repository that matches your interests. **HQ is the active product repository and source of truth for Geek Protocol’s current release.**
+Start with the repository that matches your interests. **HQ is the active product repository and source of truth for Geek Protocol’s current release.** STATIC and ICP are research. They are not part of that release.
 
 | Repository | What you’ll find |
 | --- | --- |
@@ -59,8 +64,16 @@ Start with the repository that matches your interests. **HQ is the active produc
 | [kaspa-live-widget](https://github.com/GEEKProtocol0110/kaspa-live-widget) | Signed Android 8+ home-screen companion; physical-device and Play owner checks tracked separately |
 | [geek-wallet](https://github.com/GEEKProtocol0110/geek-wallet) | Public Alpha Mainnet public-address KAS/GEEK portfolio and receiving QR |
 | [geek-protocol-docs](https://github.com/GEEKProtocol0110/geek-protocol-docs) | Earlier planning, litepaper references and brand materials |
+| [static-protocol](https://github.com/GEEKProtocol0110/static-protocol) | Settlement research. A simulation-only reference engine for batch auctions, a perpetuals simulator, and reserve and treasury models. No funds, tokens, wallets, or Kaspa broadcasts |
+| [icp-kaspa](https://github.com/GEEKProtocol0110/icp-kaspa) | Experimental Kaspa Testnet-10 vault prototype: withdrawal rules, waiting periods, and recovery keys. Test coins only; production operation is not released |
 
 Developers, educators, artists, writers and accessibility contributors are welcome. Read the [HQ contribution guide](https://github.com/GEEKProtocol0110/geek-protocol-hq/blob/main/CONTRIBUTING.md), explore [HQ issues](https://github.com/GEEKProtocol0110/geek-protocol-hq/issues), or help improve [Geek Jr](https://github.com/GEEKProtocol0110/geek-jr/issues) and [Geek Mini](https://github.com/GEEKProtocol0110/geek-mini/issues).
+
+## Engineering
+
+[Geek Protocol HQ](https://github.com/GEEKProtocol0110/geek-protocol-hq) is the source of truth for the current release. Contributions go through pull requests. HQ’s default branch accepts squash merges only. Required checks on that branch are `verify` and the two Vercel deployments: `Vercel – geek-protocol-hq` and `Vercel – geek-protocol-hq-testnet`.
+
+Secret scanning, push protection, Dependabot security updates, and private vulnerability reporting are enabled on the public product repositories. Private vulnerability reporting is enabled on this profile as well. Use [SECURITY.md](SECURITY.md) here and the [HQ security policy](https://github.com/GEEKProtocol0110/geek-protocol-hq/blob/main/SECURITY.md). Product changes follow the [HQ contribution guide](https://github.com/GEEKProtocol0110/geek-protocol-hq/blob/main/CONTRIBUTING.md).
 
 <details>
 <summary><strong>Release status, roadmap and earlier work</strong></summary>
