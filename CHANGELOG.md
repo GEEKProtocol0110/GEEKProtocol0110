@@ -9,12 +9,16 @@ This log records changes to the GitHub profile and its supporting documentation.
 ### Added
 
 - Direct entry points for the live HQ, Geek Jr and Geek Mini experiences
+- Engineering notes for HQ pull requests, squash-only merges, and required checks
+- Research rows for static-protocol and icp-kaspa, kept separate from the Public Alpha
 
 ### Changed
 
-- Refresh the teal-and-gold profile banner and simplify project navigation
+- Replace the profile banner with the Proof of Learning lockup
+- Simplify project navigation around the live products
 - Point roadmap and security guidance to the active product documentation
 - Replace application setup instructions with profile contribution guidance
+- Note that private vulnerability reporting is enabled on this profile and on HQ
 
 ### Fixed
 
